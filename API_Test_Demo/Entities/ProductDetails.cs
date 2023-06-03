@@ -1,4 +1,4 @@
-﻿namespace RudderStackDemo.Entities
+﻿namespace API_Test_Demo.Entities
 {
     public class ProductDetails
     {

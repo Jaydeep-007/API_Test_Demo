@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RudderStackDemo.Data;
-using RudderStackDemo.Entities;
+using API_Test_Demo.Data;
+using API_Test_Demo.Entities;
 
-namespace RudderStackDemo.Repositories
+namespace API_Test_Demo.Repositories
 {
     public class ProductService : IProductService
     {

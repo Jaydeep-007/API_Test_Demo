@@ -1,9 +1,9 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
-using RudderStackDemo.Entities;
-using RudderStackDemo.Repositories;
+using API_Test_Demo.Entities;
+using API_Test_Demo.Repositories;
 
-namespace RudderStackDemo.Controllers
+namespace API_Test_Demo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

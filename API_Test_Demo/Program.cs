@@ -1,13 +1,13 @@
 using Microsoft.EntityFrameworkCore;
-using RudderStackDemo.Data;
-using RudderStackDemo.Repositories;
+using API_Test_Demo.Data;
+using API_Test_Demo.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddDbContext<DbContextClass>
-(o => o.UseInMemoryDatabase("RudderStackDemo"));
+(o => o.UseInMemoryDatabase("API_Test_Demo"));
 
 builder.Services.AddControllers();
 

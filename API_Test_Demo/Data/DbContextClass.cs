@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RudderStackDemo.Entities;
+using API_Test_Demo.Entities;
 
-namespace RudderStackDemo.Data
+namespace API_Test_Demo.Data
 {
     public class DbContextClass : DbContext
     {
